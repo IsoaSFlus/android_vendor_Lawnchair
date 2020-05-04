@@ -29,8 +29,7 @@ PRODUCT_PACKAGES += \
     Lawnchair
 
 # Include package overlays
-# PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay/common
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Lawnchair 
 PRODUCT_COPY_FILES += \
